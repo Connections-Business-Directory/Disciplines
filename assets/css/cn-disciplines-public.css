@@ -1,0 +1,14 @@
+ul.cn-discipline-list {
+	-webkit-columns: 2 200px;
+	-moz-columns: 2 200px;
+	columns: 2 200px;
+	margin-left: 0;
+	padding-left: 1em;
+}
+
+li.cn-discipline-name {
+	list-style: disc outside;
+	margin-left: 1em;
+	/* text-indent: -1em; */
+	padding-left: .3em;
+}
