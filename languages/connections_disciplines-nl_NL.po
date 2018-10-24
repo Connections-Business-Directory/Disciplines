@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Connections Business Directory Certifications\n"
 "POT-Creation-Date: 2018-07-02 09:54-0400\n"
-"PO-Revision-Date: 2018-07-06 11:52+0200\n"
+"PO-Revision-Date: 2018-10-08 11:24+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -10,14 +10,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: connections-certifications.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -26,15 +26,15 @@ msgstr ""
 #: includes/admin/pages/disciplines.php:267 includes/class.widgets.php:74
 #: includes/class.widgets.php:126
 msgid "Disciplines"
-msgstr ""
+msgstr "Disciplines"
 
 #: includes/admin/pages/disciplines.php:40
 msgid "You do not have sufficient permissions to access this page."
-msgstr "U heeft onvoldoende rechten om deze pagina te bekijken."
+msgstr "Je hebt onvoldoende rechten om deze pagina te bekijken."
 
 #: includes/admin/pages/disciplines.php:89
 msgid "Edit Discipline"
-msgstr ""
+msgstr "Bewerk discipline"
 
 #: includes/admin/pages/disciplines.php:120
 #: includes/admin/pages/disciplines.php:388
@@ -57,7 +57,7 @@ msgid ""
 "The “slug” is the URL-friendly version of the name. It is usually all "
 "lowercase and contains only letters, numbers, and hyphens."
 msgstr ""
-"De \"slug\" is de URL-vriendelijke versie van de naam. Het is normaal "
+"De \"URL-einde\" is de URL-vriendelijke versie van de naam. Het is normaal "
 "gesproken geheel in kleine letters en bevat alleen letters, nummers, en "
 "koppeltekens."
 
@@ -87,25 +87,25 @@ msgstr "Annuleer"
 
 #: includes/admin/pages/disciplines.php:242
 msgid "Update Discipline"
-msgstr ""
+msgstr "Discipline updaten"
 
 #: includes/admin/pages/disciplines.php:272
 msgid "Search Disciplines"
-msgstr "Doorzoek de disciplines"
+msgstr "Zoek disciplines"
 
 #: includes/admin/pages/disciplines.php:322
 msgid ""
 "<strong>Note:</strong><br/>Deleting a discipline which has been assigned to "
 "an entry will reassign that entry to the default discipline."
 msgstr ""
-"<strong>Let op:</strong><br/>Het verwijderen van een discipline die "
+"<strong>Opmerking:</strong><br/>Het verwijderen van een discipline die "
 "toegewezen is aan invoer betekent dat die invoer toegekend wordt aan de "
 "standaard discipline."
 
 #: includes/admin/pages/disciplines.php:361
 #: includes/admin/pages/disciplines.php:520
 msgid "Add New Discipline"
-msgstr "Voeg een nieuwe discipline toe"
+msgstr "Nieuwe discipline toevoegen"
 
 #: includes/class.widgets.php:20 includes/class.widgets.php:25
 msgid "Business Disciplines"
@@ -117,7 +117,7 @@ msgstr "Titel:"
 
 #. Plugin Name of the plugin/theme
 msgid "Connections Business Directory Disciplines"
-msgstr "Connections Business Directory Disciplines"
+msgstr "Connections Business Adressenboek Disciplines"
 
 #. Plugin URI of the plugin/theme
 msgid "https://connections-pro.com/documentation/disciplines/"
@@ -128,9 +128,9 @@ msgid ""
 "An extension for the Connections Business Directory plugin which adds the "
 "ability to add and assign disciplines to your business directory entries."
 msgstr ""
-"Een extensie voor de Connections Business Directory plugin waarmee u de "
+"Een extensie voor de Connections Business Adressenboek plugin waarmee je de "
 "mogelijkheid krijgt om disciplines toe te voegen en deze toe te wijzen aan "
-"de directory invoeren."
+"de invoeren."
 
 #. Author of the plugin/theme
 msgid "Steven A. Zahm"
