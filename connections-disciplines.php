@@ -2,7 +2,7 @@
 /**
  * An extension for the Connections Business Directory plugin which adds the ability to add and assign disciplines to your business directory entries.
  *
- * @package   Connections Business Directory Disciplines
+ * @package   Connections Business Directory Extension - Disciplines
  * @category  Extension
  * @author    Steven A. Zahm
  * @license   GPL-2.0+
@@ -10,7 +10,7 @@
  * @copyright 2018 Steven A. Zahm
  *
  * @wordpress-plugin
- * Plugin Name:       Connections Business Directory Disciplines
+ * Plugin Name:       Connections Business Directory Extension - Disciplines
  * Plugin URI:        https://connections-pro.com/documentation/disciplines/
  * Description:       An extension for the Connections Business Directory plugin which adds the ability to add and assign disciplines to your business directory entries.
  * Version:           1.0
