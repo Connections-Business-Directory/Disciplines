@@ -158,6 +158,38 @@ if ( ! class_exists( 'Connections_Disciplines' ) ) {
 			}
 		}
 
+		/**
+		 * Register the taxonomy with the Gravity Forms Connector.
+		 *
+		 * @since 1.1
+		 *
+		 * @param array $taxonomy
+		 *
+		 * @return array
+		 */
+		public static function registerDisciplinesTaxonomy( $taxonomy ) {
+
+			$taxonomy['discipline'] = array(
+				'labels' => array(
+					'name'          => _x(
+						'Disciplines',
+						'Taxonomy field plural name.',
+						'connections_gravity_forms'
+					),
+					'all_items'     => __( 'All Disciplines', 'connections_gravity_forms' ),
+					'select_items'  => __( 'Select Disciplines', 'connections_gravity_forms' ),
+					'singular_name' => _x(
+						'Discipline',
+						'Taxonomy field singular name.',
+						'connections_gravity_forms'
+					),
+					'field_label'   => __( 'Entry Disciplines', 'connections_gravity_forms' ),
+				),
+			);
+
+			return $taxonomy;
+		}
+
 		public static function addMenu( $menu ) {
 
 			$menu[67]  = array(
@@ -587,5 +619,9 @@ HEREDOC;
 	 * we'll load with priority 11 so we know Connections will be loaded and ready first.
 	 */
 	add_action( 'plugins_loaded', 'Connections_Disciplines', 11 );
+
+	// Support the Gravity Form Connector, register Disciplines Taxonomy.
+	// NOTE: Must add filter before the `plugins_loaded` action.
+	add_filter( 'Connections_Directory\Connector\Gravity_Forms\Register_Taxonomy_Fields', array( 'Connections_Disciplines', 'registerDisciplinesTaxonomy' ) );
 
 }
